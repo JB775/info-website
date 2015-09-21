@@ -60,7 +60,66 @@ html body {
   -webkit-transform: scale(1.13);
   transform: scale(1.13);
 }
-
+/*Calendar Page*/
+.calendar {
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	top: 90px;
+}
+.calendar h1 {
+	text-align: center;
+}
+.calendar-dates {
+	max-width: 49%;
+	float: left;
+	margin: 0 auto;
+}
+.calendar-dates li {
+	list-style: none;
+}
+.calendar-image img {
+	max-width: 49%;
+	float: right;
+}
+img.Wednesday {
+	display: none;
+}
+img.Thursday {
+	display: none;
+}
+img.Friday {
+	display: none;
+}
+img.Saturday {
+	display: none;
+}
+img.Sunday {
+	display: none;
+}
+a.Wednesdayshov img {
+	display: none;
+	width: 500px;
+	position: absolute;
+	padding: 90px;
+	top: 0;
+}
+/*Hover on calendar page*/
+a.Wednesdayshov:hover img {
+	display: inline-block;
+}
+a.Thursdayhov:hover ~ img.Thursday {
+	display: inline-block;
+}
+a.Fridayhov:hover ~ img.Friday {
+	display: inline-block;
+}
+a.Saturdayhov:hover ~ img.Saturday {
+	display: inline-block;
+}
+a.Sundayhov:hover ~ img.Sunday {
+	display: inline-block;
+}
 /* Bottom Footer Bar  */
 
 .footer-bar {
