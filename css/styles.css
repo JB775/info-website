@@ -25,10 +25,12 @@ html body {
 	padding-left: 50%;
 	padding-right: 50%;
 	border-bottom: solid 2px darkgray;
+	margin-top: -21px;
 }
 
 #top-bar img {
-	width: 3%;
+	width: 35px;
+	padding-top: 4px;
 	/*margin-top: -13px; */
 }
 
@@ -37,7 +39,7 @@ html body {
 .page-body {
 	position: relative;
 	top: 46px;
-	border: solid 3px red;
+	/*border: solid 3px red;*/
 }
 
 
@@ -78,4 +80,51 @@ html body {
 	width: 2%;
 	margin: 0% 4%; 
 	padding-top: 3px;
+}
+
+/*Main Image Effects*/
+
+.page-body img {
+	width: 300px;
+	transition: width 2s;
+	/*position: absolute;*/
+	/*clip: rect(0, 50px, 0, 50px);*/
+/*	width: 600px;
+	position: absolute;
+    clip-path inset(10px 20px 30px 40px);*/
+}
+
+.img1 {
+	position: absolute;
+	left: 10px;
+    top: 150px;
+    z-index: 1;
+   -webkit-transition: z-index 0s .5s;   
+      -moz-transition: z-index 0s .5s;   
+           transition: z-index 0s .5s;  
+	/*clip: rect(0, 50px, 0, 50px);*/
+/*	width: 600px;
+	position: absolute;
+    clip-path inset(10px 20px 30px 40px);*/
+}
+
+.img3 {
+	position: absolute;
+	left: 100px;
+    top: 150px;
+    z-index: 1;
+   -webkit-transition: z-index 0s 2s;   
+      -moz-transition: z-index 0s 2s;   
+           transition: z-index 0s 2s;  
+	/*clip: rect(0, 50px, 0, 50px);*/
+/*	width: 600px;
+	position: absolute;
+    clip-path inset(10px 20px 30px 40px);*/
+}
+
+.img1:hover {
+    -webkit-transition: z-index 0s 0s;
+       -moz-transition: z-index 0s 0s;   
+            transition: z-index 0s 0s; 
+    z-index: 50;
 }
