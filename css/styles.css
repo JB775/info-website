@@ -40,6 +40,20 @@ html body {
 	border: solid 3px red;
 }
 
+}
+.aboutwrapper{
+	width:250px;
+	padding:20px;
+}
+.aboutwrapper img{ 
+	float:left;
+}
+
+.map{
+	float:right;
+}
+
+
 
 /* Growing Links */
 .hvr-grow {
