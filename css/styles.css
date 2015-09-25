@@ -22,8 +22,8 @@ html body {
 	width: 100%;
 	height: 45px;
 	background-color: white;
-	padding-left: 50%;
-	padding-right: 50%;
+	padding-left: 47.5%;
+	padding-right: 47.5%;
 	border-bottom: solid 2px darkgray;
 }
 
@@ -60,7 +60,83 @@ html body {
   -webkit-transform: scale(1.13);
   transform: scale(1.13);
 }
+/*Calendar Page*/
+.calendar {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	top: 90px;
+}
+.calendar h1 {
+	text-align: center;
+}
+.calendar-dates {
+	max-width: 49%;
+	float: left;
 
+}
+
+.calendar-dates li {
+	list-style: none;
+}
+.day {
+	text-align: center;
+	padding-top: 50px;
+}
+/*Slideshow*/
+.calendar-images {
+	max-width: 600px;
+}
+
+.css-slideshow{
+	
+ 	margin: .5rem auto .5rem auto;
+ 	float: left;
+ 	padding-left: 25px;
+}
+.css-slideshow figure{
+ 	margin: 0;
+ 	background: #000;
+ 	position: absolute;
+}
+.css-slideshow img{
+ 	box-shadow: 0 0 2px #666;
+}
+
+.css-slideshow figure{
+  	opacity:0;
+}
+figure:nth-child(1) {
+  	animation: xfade 24s 18s infinite;
+}
+figure:nth-child(2) {
+  	animation: xfade 24s 12s infinite;
+}
+figure:nth-child(3) {
+  	animation: xfade 24s 6s infinite;
+}
+figure:nth-child(4) {
+  	animation: xfade 24s 0s infinite;
+}
+
+
+@keyframes xfade{
+  	0%{
+	opacity: 1;
+ }
+  	23% {
+	opacity: 1;
+ }
+  	25%{
+	opacity: 0;
+ }
+  	98% {
+	opacity: 0;
+ }
+  	100% {
+	opacity: 1;
+  }
+}
 /* Bottom Footer Bar  */
 
 .footer-bar {
