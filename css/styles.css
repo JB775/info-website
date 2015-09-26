@@ -19,12 +19,14 @@ html body {
 
 #top-bar {
 	position: fixed;
+	z-index: 999;
 	width: 100%;
 	height: 45px;
 	background-color: white;
 	padding-left: 50%;
 	padding-right: 50%;
-	border-bottom: solid 2px darkgray;
+	margin-top: -3px;
+	
 }
 
 #top-bar img {
@@ -38,21 +40,26 @@ html body {
 	position: relative;
 	top: 46px;
 	border: solid 3px red;
+	padding: 15px;
+	margin: 5px;
 }
 
+/* For About Page*/
 }
 .aboutwrapper{
-	width:250px;
-	padding:20px;
+	width:250px;	
 }
 .aboutwrapper img{ 
 	float:left;
+	padding:15px;
 }
 
 .map{
 	float:right;
 }
-
+.aboutParagraph{
+	margin-top: -20px;
+}
 
 
 /* Growing Links */
@@ -73,6 +80,11 @@ html body {
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.13);
   transform: scale(1.13);
+}
+
+.aboutParagraph
+{
+	margin-top: -20px;
 }
 
 /* Bottom Footer Bar  */
