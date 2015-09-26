@@ -19,12 +19,15 @@ html body {
 
 #top-bar {
 	position: fixed;
+	z-index: 999;
 	width: 100%;
 	height: 45px;
 	background-color: white;
-	padding-left: 47.5%;
-	padding-right: 47.5%;
-	border-bottom: solid 2px darkgray;
+	padding-left: 50%;
+	padding-right: 50%;
+	margin-top: -3px;
+	
+
 }
 
 #top-bar img {
@@ -38,6 +41,25 @@ html body {
 	position: relative;
 	top: 46px;
 	border: solid 3px red;
+	padding: 15px;
+	margin: 5px;
+}
+
+/* For About Page*/
+}
+.aboutwrapper{
+	width:250px;	
+}
+.aboutwrapper img{ 
+	float:left;
+	padding:15px;
+}
+
+.map{
+	float:right;
+}
+.aboutParagraph{
+	margin-top: -20px;
 }
 
 
@@ -74,6 +96,7 @@ html body {
 	max-width: 49%;
 	float: left;
 
+<<<<<<< HEAD
 }
 
 .calendar-dates li {
@@ -137,6 +160,13 @@ figure:nth-child(4) {
 	opacity: 1;
   }
 }
+=======
+.aboutParagraph
+{
+	margin-top: -20px;
+}
+
+>>>>>>> jess
 /* Bottom Footer Bar  */
 
 .footer-bar {
