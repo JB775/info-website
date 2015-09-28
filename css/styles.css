@@ -21,18 +21,33 @@ html, body {
   position: fixed;
   z-index: 999;
   width: 100%;
-  height: 45px;
+  height: 46px;
   background-color: white;
   padding-left: 50%;
   padding-right: 50%;
-  /*margin-top: -3px;*/
-  
-
+  margin-top: -5px;
+  border-bottom: solid 2px darkgray;
 }
 
 #top-bar img {
   width: 3%;
-  /*margin-top: -13px; */
+}
+
+#top-bar2 {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 51px;
+  background-color: white;
+  padding-left: 50%;
+  padding-right: 50%;
+  margin-top: -5px;
+  border-bottom: solid 2px darkgray;
+}
+
+#top-bar2 img {
+  width: 3%;
+  padding-top: 5px;
 }
 
 /* Body of Page  */
@@ -163,11 +178,11 @@ figure:nth-child(4) {
 {
   margin-top: -20px;
 }
-
+/*
 <<<<<<< HEAD
 =======
 
->>>>>>> 4a8bb3e8a2736ef4cb135396a50e6ba4c3ca2360
+>>>>>>> 4a8bb3e8a2736ef4cb135396a50e6ba4c3ca2360*/
 /* Bottom Footer Bar  */
 
 .footer-bar {
