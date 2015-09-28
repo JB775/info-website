@@ -17,3 +17,4 @@ if (dayNow === 3) {
 }
 
 document.write('<h3 class="day">' + greeting + '</h3>');
+
