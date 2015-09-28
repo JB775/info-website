@@ -5,6 +5,7 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
+
 }
  
  /* wrapper */
@@ -55,9 +56,22 @@ html, body {
 .page-body {
   position: relative;
   top: 46px;
-  border: solid 3px red;
   padding: 15px;
   margin: 5px;
+  font-family: 'Merriweather', serif;
+  line-height: 25.88px;
+
+}
+.page-body h1 {
+  line-height: 58.25px;
+}
+
+.page-body h2 {
+  line-height: 38.83px;
+}
+
+.page-body h3 {
+  line-height: 33.98px;
 }
 
 /* For About Page*/
@@ -102,7 +116,6 @@ html, body {
   width: 90%;
   margin: 0 auto;
   position: relative;
-  top: 90px;
 }
 .calendar h1 {
   text-align: center;
@@ -110,15 +123,14 @@ html, body {
 .calendar-dates {
   max-width: 49%;
   float: left;
+  font-family: 'Merriweather', serif;
+
 }
 
 .calendar-dates li {
   list-style: none;
 }
-.day {
-  text-align: center;
-  padding-top: 50px;
-}
+
 /*Slideshow*/
 .calendar-images {
   max-width: 600px;
@@ -300,7 +312,6 @@ figure:nth-child(4) {
 
 .child a {
   font-family: 'Merriweather', serif;
-  color: #FDA936;
   font-size: 1.4em;
   text-decoration: none;
   /*left: 100px;*/
@@ -308,7 +319,10 @@ figure:nth-child(4) {
   /*padding-left: 50px;*/
 }
 
-.child a:visited {
+.about-link a:visited {
+  color: #3096A3;
+}
+.calendar-link a:visited {
   color: #FDA936;
 }
 
@@ -321,11 +335,14 @@ figure:nth-child(4) {
   position: absolute;
   bottom: 800px;
   left: 65px;
+  color: #FDA936;
 }
 
 .about-link {
   position: absolute;
   bottom: 815px;
   left: 175px;
+  color: #3096A3;
+
 }
 
